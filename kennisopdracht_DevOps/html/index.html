@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="thema.js"></script>
+    </head>
+    
+    <body id="bg1">
+
+        <div id="img">  
+            <img id="logo" src="images/mario_logo.png" style="width:300px">
+        </div> 
+        <h1 id="homepage">Welcome to the Kingdom!</h1>
+        
+        <p>Ga naar andere wereld</p>
+        <div>
+            <select class="mario" id="thema" onchange="themaHandler(this.value)" >
+                 
+                <option value="index">Mario</option>
+                <option value="metroid">Metroid</option>
+                <option value="kirby">Kirby</option>
+            </select>
+        </div>    
+    </body>
+</html>

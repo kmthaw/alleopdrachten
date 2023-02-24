@@ -1,0 +1,67 @@
+body, html{
+    height: 100%;
+}
+body{
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: Helvetica, Sans-Serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+#bg1 {
+    background-image: url('https://cloudinary.com/blog/wp-content/uploads/sites/12/2022/02/Mario_1.gif');
+}
+
+#bg2 {
+    background-image: url('https://media.tenor.com/Bmnq9LYEgy0AAAAC/metroid-samus.gif');
+}
+
+#bg3 {
+    background-image: url('https://i.pinimg.com/originals/78/95/7e/78957e53c0ea10a260f7cc3130a2d7b0.gif');
+}
+
+#img{
+    padding-top: 13%;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#metroidlogo{
+    padding-top: 50px;
+}
+
+select{
+    position: relative;
+    min-width: 70px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: medium;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.mario{
+    background-color: #e34242;
+}
+
+.metroid{
+    background-color: #e342e3;
+}
+
+.kirby{
+    background-color: #ffa0fc;
+}
+
+option{
+    text-align: center;
+}
+
+  
